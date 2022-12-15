@@ -1,0 +1,11 @@
+framework module TestUIPkg {
+  umbrella header "TestUIPkg.h"
+
+  export *
+  module * { export * }
+}
+
+module TestUIPkg.Swift {
+  header "TestUIPkg-Swift.h"
+  requires objc
+}
