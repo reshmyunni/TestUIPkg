@@ -11,7 +11,7 @@
         <!--Image View Controller-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="Y6W-OH-hqX" customClass="ImageViewController" customModule="SampleUI" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="Y6W-OH-hqX" customClass="ImageViewController" customModule="TestUIPkg" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -68,7 +68,7 @@
         <!--Next View Controller-->
         <scene sceneID="Z6h-5B-hRc">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="TDf-2j-TXF" customClass="NextViewController" customModule="SampleUI" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="TDf-2j-TXF" customClass="NextViewController" customModule="TestUIPkg" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SbX-5U-1gq">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
