@@ -9,12 +9,12 @@ import Foundation
 import UIKit
 
 public class DataManager: NSObject {
-    var color:UIColor!
-    static let sharedInstance = DataManager()
-    func setColor(selColor:UIColor){
+    public var color:UIColor!
+    public static let sharedInstance = DataManager()
+    public func setColor(selColor:UIColor){
         color = selColor
     }
-    func getColor()->UIColor{
+    public func getColor()->UIColor{
         return color
     }
 }

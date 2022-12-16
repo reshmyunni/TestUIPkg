@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/TestUIPkg.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		NYzLsE0cHax7VHuZPYzOS8rwEJQ=
+		A5kO41u534EphNNv7+T+ZQJunbw=
 		</data>
 		<key>Modules/TestUIPkg.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/TestUIPkg.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		DZ/3RsvsNA6nu450UavCT7bVNnY=
+		e6/+QEroDZmt5E4DgveBxIFFL3I=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -88,7 +88,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UWaLMZGQ1xcjOIgeBVTJJiPPCLB/ZFgoxxfZ4JSjdak=
+			euwr4Klfnc2PZy+htyt1DoR6eFB4VW3ReteJjiHFs6A=
 			</data>
 		</dict>
 		<key>Modules/TestUIPkg.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -109,7 +109,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			334xsG3yaBbk9Ev45lNV6cUk8ecj6yu8/wRltFAtBeU=
+			3mPblmt4Lsjb4sSoMpy2Sz+6pft21Uq37yYlq7szs+o=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
