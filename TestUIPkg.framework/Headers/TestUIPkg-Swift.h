@@ -258,6 +258,12 @@ SWIFT_CLASS("_TtC9TestUIPkg10APIRequest")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+SWIFT_CLASS("_TtC9TestUIPkg11DataManager")
+@interface DataManager : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class NSString;
 @class NSBundle;
 @class NSCoder;

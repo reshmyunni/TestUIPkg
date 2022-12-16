@@ -17,10 +17,19 @@ public extension UIViewController{
 
 public class ImageViewController: UIViewController {
 
-   
+    @IBOutlet weak var nextBtn: UIButton!
+    @IBOutlet weak var apiBtn: UIButton!
+    
     @IBOutlet weak var imgView: UIImageView!
    
     public override func viewDidLoad() {
+        setTheme()
+    }
+    
+    func setTheme(){
+        self.view.backgroundColor = DataManager.sharedInstance.color
+        self.apiBtn.backgroundColor = DataManager.sharedInstance.color
+        self.nextBtn.backgroundColor = DataManager.sharedInstance.color
     }
     
     @IBAction func apiCallBtnTapped(_ sender: Any) {

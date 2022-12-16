@@ -18,12 +18,13 @@
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sunflower" translatesAutoresizingMaskIntoConstraints="NO" id="6CY-G3-eY6">
                                 <rect key="frame" x="76.666666666666686" y="362" width="240" height="128"/>
+                                <color key="tintColor" systemColor="tintColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="GcJ-nx-gUa"/>
                                     <constraint firstAttribute="height" constant="128" id="wY8-zr-g0Q"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hU8-Me-OTh">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hU8-Me-OTh">
                                 <rect key="frame" x="155" y="568" width="83" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="API Call"/>
@@ -31,7 +32,7 @@
                                     <action selector="apiCallBtnTapped:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="oIc-w4-ea5"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pya-OQ-4jY">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pya-OQ-4jY">
                                 <rect key="frame" x="166.66666666666666" y="668" width="60" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="60" id="FEd-FD-L4u"/>
@@ -58,7 +59,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="Vhh-mD-aRO"/>
                     <connections>
+                        <outlet property="apiBtn" destination="hU8-Me-OTh" id="SGw-TM-ZcR"/>
                         <outlet property="imgView" destination="6CY-G3-eY6" id="Rmf-Dp-J72"/>
+                        <outlet property="nextBtn" destination="pya-OQ-4jY" id="yKb-vk-0dB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -122,6 +125,9 @@
         <image name="sunflower" width="98" height="131"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tintColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

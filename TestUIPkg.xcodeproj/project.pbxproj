@@ -18,6 +18,7 @@
 		F2E40F25294B22970093CEED /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E40F20294B22970093CEED /* NextViewController.swift */; };
 		F2E40F27294B22A00093CEED /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2E40F26294B22A00093CEED /* Media.xcassets */; };
 		F2E40F2A294B22BF0093CEED /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2E40F29294B22BF0093CEED /* Accelerate.framework */; };
+		F2EA324E294C6854000406CC /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EA324D294C6854000406CC /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		F2E40F20294B22970093CEED /* NextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 		F2E40F26294B22A00093CEED /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		F2E40F29294B22BF0093CEED /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		F2EA324D294C6854000406CC /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				F2E40F05294B227F0093CEED /* TestUIPkg.h */,
 				F2E40F06294B227F0093CEED /* TestUIPkg.docc */,
 				F2E40F26294B22A00093CEED /* Media.xcassets */,
+				F2EA324D294C6854000406CC /* DataManager.swift */,
 			);
 			path = TestUIPkg;
 			sourceTree = "<group>";
@@ -227,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2E40F25294B22970093CEED /* NextViewController.swift in Sources */,
+				F2EA324E294C6854000406CC /* DataManager.swift in Sources */,
 				F2E40F22294B22970093CEED /* ImageViewController.swift in Sources */,
 				F2E40F24294B22970093CEED /* MyLibrary.swift in Sources */,
 				F2E40F23294B22970093CEED /* APIRequest.swift in Sources */,
