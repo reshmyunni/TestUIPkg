@@ -37,6 +37,7 @@ public class ImageViewController: UIViewController {
     
     func onAPIFailed(message: String)
     {
+        
     }
     
     /*
