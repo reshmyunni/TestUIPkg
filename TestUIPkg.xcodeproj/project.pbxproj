@@ -168,6 +168,8 @@
 			dependencies = (
 			);
 			name = TestUIPkg;
+			packageProductDependencies = (
+			);
 			productName = TestUIPkg;
 			productReference = F2E40F02294B227F0093CEED /* TestUIPkg.framework */;
 			productType = "com.apple.product-type.framework";
@@ -180,7 +182,6 @@
 				F2E40F08294B227F0093CEED /* Sources */,
 				F2E40F09294B227F0093CEED /* Frameworks */,
 				F2E40F0A294B227F0093CEED /* Resources */,
-				79472EC3D5EB73960A7DCEB2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -219,6 +220,9 @@
 				Base,
 			);
 			mainGroup = F2E40EF8294B227F0093CEED;
+			packageReferences = (
+				F244700C295076C500361C0B /* XCRemoteSwiftPackageReference "CustomButton" */,
+			);
 			productRefGroup = F2E40F03294B227F0093CEED /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -269,23 +273,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		79472EC3D5EB73960A7DCEB2 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TestUIPkg-TestUIPkgTests/Pods-TestUIPkg-TestUIPkgTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TestUIPkg-TestUIPkgTests/Pods-TestUIPkg-TestUIPkgTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestUIPkg-TestUIPkgTests/Pods-TestUIPkg-TestUIPkgTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8A947F19C2248CF97B546513 /* [CP] Check Pods Manifest.lock */ = {
@@ -599,6 +586,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F244700C295076C500361C0B /* XCRemoteSwiftPackageReference "CustomButton" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/CustomButton";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = F2E40EF9294B227F0093CEED /* Project object */;
 }

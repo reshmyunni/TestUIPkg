@@ -5,7 +5,7 @@ platform :ios, '16.1'
 target 'TestUIPkg' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-pod 'PMSuperButton'
+#pod 'PMSuperButton'
   # Pods for TestUIPkg
 
   target 'TestUIPkgTests' do

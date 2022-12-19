@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "custombutton",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/sindresorhus/CustomButton",
+      "state" : {
+        "branch" : "main",
+        "revision" : "b4610ee51ae8a83c2db2cc443d9c4fb601e316e2"
+      }
+    }
+  ],
+  "version" : 2
+}
