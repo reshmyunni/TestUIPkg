@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
  
 
   spec.name         = "TestUIPkg"
-  spec.version      = "0.0.8"
+  spec.version      = "0.0.9"
   spec.summary      = "A short description of TestUIPkg."
 
  
@@ -21,7 +21,7 @@ A short description of TestUIPkg.
 
   spec.homepage     = "https://github.com/reshmyunni/TestUIPkg"
  
-
+spec. dependency = "PMSuperButton"
 
  
 spec.vendored_frameworks = "TestUIPkg.framework"

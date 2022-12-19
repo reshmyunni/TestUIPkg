@@ -1,0 +1,6 @@
+framework module Pods_TestUIPkg {
+  umbrella header "Pods-TestUIPkg-umbrella.h"
+
+  export *
+  module * { export * }
+}

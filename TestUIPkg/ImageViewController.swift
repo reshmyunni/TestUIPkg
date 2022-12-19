@@ -7,11 +7,12 @@
 
 import UIKit
 import TestPackage
+import PMSuperButton
 
 public class ImageViewController: UIViewController {
 
     @IBOutlet weak var nextBtn: UIButton!
-    @IBOutlet weak var apiBtn: UIButton!
+    @IBOutlet weak var apiBtn: PMSuperButton!
     
     @IBOutlet weak var imgView: UIImageView!
    
@@ -30,6 +31,7 @@ public class ImageViewController: UIViewController {
     }
     
     @IBAction func apiCallBtnTapped(_ sender: Any) {
+        apiBtn.showLoader(userInteraction: true)
         APIRequest.sharedInstance.apiCall(request:"", parameters:[:], success: onAPISuccess, failure: onAPIFailed)
     }
     

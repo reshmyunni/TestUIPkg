@@ -8,6 +8,18 @@
 		<data>
 		YYFsaooCq2/3ijmAs0hEkMa3c4U=
 		</data>
+		<key>Frameworks/TestPackage.framework/Info.plist</key>
+		<data>
+		096wBmgaGMXVX7AYFbczwSLm8Q8=
+		</data>
+		<key>Frameworks/TestPackage.framework/TestPackage</key>
+		<data>
+		6+jeikRDm8BbgTwPiYqBJhGoDBw=
+		</data>
+		<key>Frameworks/TestPackage.framework/_CodeSignature/CodeResources</key>
+		<data>
+		gjaHXnEY8ZmoAv3C8+rz95luZu8=
+		</data>
 		<key>Headers/TestUIPkg-Swift.h</key>
 		<data>
 		n0W2DGBLAZtNxYeI6JN2gjyNXmE=
@@ -22,7 +34,7 @@
 		</data>
 		<key>Modules/TestUIPkg.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		TnYIuyaodMkg4rP+Olk6zfv8fLc=
+		eKfYPK5sFpSx6SjuSJhsYrzwynE=
 		</data>
 		<key>Modules/TestUIPkg.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -34,7 +46,7 @@
 		</data>
 		<key>Modules/TestUIPkg.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		jh6qV5mPti0lUgUm9y36e4y07nM=
+		vs27hrh+A0OcREqWvFHaxGHsw98=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -58,7 +70,7 @@
 		</data>
 		<key>SampleImg.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<data>
-		JIoIeBxuK733llZ0Kf74hMnHHoc=
+		lpAisxQDS492U50Ii6L8E8dEjUM=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -68,6 +80,27 @@
 			<key>hash2</key>
 			<data>
 			o2owSD1qNgPdVtwM4w/dRvoiwjA+1FZUNOaTOYrO/ps=
+			</data>
+		</dict>
+		<key>Frameworks/TestPackage.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mTOvqkwYKZpzyMlk8/APvj5xdq0xlLcQPSR1QcsgAB4=
+			</data>
+		</dict>
+		<key>Frameworks/TestPackage.framework/TestPackage</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			eMc0bSSuYc7U5iUKAudyTZq3Z+/1sqKnq3VGSIns/og=
+			</data>
+		</dict>
+		<key>Frameworks/TestPackage.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bgHK8MFLzclOlQ8Lkzor/B/UpCs3ApVrUXXZCkxxNrc=
 			</data>
 		</dict>
 		<key>Headers/TestUIPkg-Swift.h</key>
@@ -88,7 +121,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OWkmWqvx0c/PPK1fVl1G2hrUxPOPyewbIAkP9NiaBjM=
+			6bSW7dYXpijZm/KTmDsScggF4DysFS72llRdPEpYEgA=
 			</data>
 		</dict>
 		<key>Modules/TestUIPkg.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -109,7 +142,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/ymCXGlxYMuojyPOVBgZ/BDxCnBQSgPSKkNYrApoTDU=
+			axnjdjsqBR0YWjmosl3Ymok7ZBdt2bev9+31ZnezUgM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -151,7 +184,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7q2HfEYX+bkdan1sQ8OBJrgIdfiLhvFBKXZtgtOko/E=
+			X5S66WnMvioltiZC/U46a/JFjeLBPNOJ5b/El9I9cno=
 			</data>
 		</dict>
 	</dict>
