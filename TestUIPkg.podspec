@@ -21,7 +21,7 @@ A short description of TestUIPkg.
 
   spec.homepage     = "https://github.com/reshmyunni/TestUIPkg"
  
-spec. dependency = "PMSuperButton"
+spec.dependency "PMSuperButton"
 
  
 spec.vendored_frameworks = "TestUIPkg.framework"
