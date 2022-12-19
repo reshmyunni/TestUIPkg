@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+import TestPackage
 
 public class ImageViewController: UIViewController {
 
@@ -26,6 +26,7 @@ public class ImageViewController: UIViewController {
         self.nextBtn.backgroundColor = DataManager.sharedInstance.color ?? UIColor.white
         self.nextBtn.alpha = 0.5
         self.imgView.image = DataManager.sharedInstance.img
+        TestPackage.d("Hello....")
     }
     
     @IBAction func apiCallBtnTapped(_ sender: Any) {
