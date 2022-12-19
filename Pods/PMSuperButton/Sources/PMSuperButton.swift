@@ -8,6 +8,7 @@
 
 import UIKit
 
+@available(iOS 13.0, *)
 @IBDesignable
 open class PMSuperButton: UIButton {
     
@@ -189,7 +190,7 @@ open class PMSuperButton: UIButton {
     }
     
     //MARK: - Loading
-    let indicator: UIActivityIndicatorView = UIActivityIndicatorView(style: UIActivityIndicatorView.Style.gray)
+    let indicator: UIActivityIndicatorView = UIActivityIndicatorView(style: UIActivityIndicatorView.Style.medium)
     public var isLoading: Bool = false
     
     /**
@@ -240,6 +241,7 @@ open class PMSuperButton: UIButton {
 
 }
 
+@available(iOS 13.0, *)
 extension PMSuperButton: CAAnimationDelegate{
     
     //MARK: Material touch animation for ripple button
@@ -272,7 +274,7 @@ extension PMSuperButton: CAAnimationDelegate{
         
         // Set animation to be consistent on completion
         animation.isRemovedOnCompletion = false
-        animation.fillMode = CAMediaTimingFillMode.forwards
+//        animation.fillMode = CAMediaTimingFillMode.forwards
         
         // Add animation to the view's layer
         let fade = CAKeyframeAnimation(keyPath: "opacity")
