@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A6404749E655FB912ACF1B35 /* Pods_TestUIPkg_TestUIPkgTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 273F7211815EE99B74ABDA35 /* Pods_TestUIPkg_TestUIPkgTests.framework */; };
-		F2D7BCB929503C88007C8E32 /* TestPackage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D7BCB729503C6D007C8E32 /* TestPackage.framework */; platformFilter = ios; };
-		F2D7BCBA29503C88007C8E32 /* TestPackage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F2D7BCB729503C6D007C8E32 /* TestPackage.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F2E40F07294B227F0093CEED /* TestUIPkg.docc in Sources */ = {isa = PBXBuildFile; fileRef = F2E40F06294B227F0093CEED /* TestUIPkg.docc */; };
 		F2E40F0D294B227F0093CEED /* TestUIPkg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2E40F02294B227F0093CEED /* TestUIPkg.framework */; };
 		F2E40F12294B227F0093CEED /* TestUIPkgTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E40F11294B227F0093CEED /* TestUIPkgTests.swift */; };
@@ -34,20 +32,6 @@
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		F2D7BCBB29503C88007C8E32 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				F2D7BCBA29503C88007C8E32 /* TestPackage.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		134EE3A79000EDAFFE326ED3 /* Pods-TestUIPkg-TestUIPkgTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestUIPkg-TestUIPkgTests.release.xcconfig"; path = "Target Support Files/Pods-TestUIPkg-TestUIPkgTests/Pods-TestUIPkg-TestUIPkgTests.release.xcconfig"; sourceTree = "<group>"; };
 		273F7211815EE99B74ABDA35 /* Pods_TestUIPkg_TestUIPkgTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestUIPkg_TestUIPkgTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,7 +39,6 @@
 		C803133C75A2270D4F65A64E /* Pods-TestUIPkg.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestUIPkg.release.xcconfig"; path = "Target Support Files/Pods-TestUIPkg/Pods-TestUIPkg.release.xcconfig"; sourceTree = "<group>"; };
 		CA26D93F602B899BD04FAF34 /* Pods-TestUIPkg.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestUIPkg.debug.xcconfig"; path = "Target Support Files/Pods-TestUIPkg/Pods-TestUIPkg.debug.xcconfig"; sourceTree = "<group>"; };
 		E5D3C785A9B5E99569C02F03 /* Pods-TestUIPkg-TestUIPkgTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestUIPkg-TestUIPkgTests.debug.xcconfig"; path = "Target Support Files/Pods-TestUIPkg-TestUIPkgTests/Pods-TestUIPkg-TestUIPkgTests.debug.xcconfig"; sourceTree = "<group>"; };
-		F2D7BCB729503C6D007C8E32 /* TestPackage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TestPackage.framework; sourceTree = "<group>"; };
 		F2E40F02294B227F0093CEED /* TestUIPkg.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestUIPkg.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2E40F05294B227F0093CEED /* TestUIPkg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestUIPkg.h; sourceTree = "<group>"; };
 		F2E40F06294B227F0093CEED /* TestUIPkg.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = TestUIPkg.docc; sourceTree = "<group>"; };
@@ -76,7 +59,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2E40F2A294B22BF0093CEED /* Accelerate.framework in Frameworks */,
-				F2D7BCB929503C88007C8E32 /* TestPackage.framework in Frameworks */,
 				FCF9469E3C030AE13419783A /* Pods_TestUIPkg.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,7 +83,6 @@
 				E5D3C785A9B5E99569C02F03 /* Pods-TestUIPkg-TestUIPkgTests.debug.xcconfig */,
 				134EE3A79000EDAFFE326ED3 /* Pods-TestUIPkg-TestUIPkgTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -128,7 +109,6 @@
 		F2E40F04294B227F0093CEED /* TestUIPkg */ = {
 			isa = PBXGroup;
 			children = (
-				F2D7BCB729503C6D007C8E32 /* TestPackage.framework */,
 				F2E40F1E294B22970093CEED /* APIRequest.swift */,
 				F2E40F1D294B22970093CEED /* ImageViewController.swift */,
 				F2E40F20294B22970093CEED /* NextViewController.swift */,
@@ -182,7 +162,6 @@
 				F2E40EFE294B227F0093CEED /* Sources */,
 				F2E40EFF294B227F0093CEED /* Frameworks */,
 				F2E40F00294B227F0093CEED /* Resources */,
-				F2D7BCBB29503C88007C8E32 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -503,6 +482,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -536,6 +516,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

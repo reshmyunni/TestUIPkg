@@ -121,6 +121,11 @@
             <point key="canvasLocation" x="-60.305343511450381" y="-11.267605633802818"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="hU8-Me-OTh">
+            <size key="intrinsicContentSize" width="82.333333333333329" height="34.333333333333336"/>
+        </designable>
+    </designables>
     <resources>
         <image name="sunflower" width="98" height="131"/>
         <systemColor name="systemBackgroundColor">

@@ -6,19 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		YYFsaooCq2/3ijmAs0hEkMa3c4U=
-		</data>
-		<key>Frameworks/TestPackage.framework/Info.plist</key>
-		<data>
-		096wBmgaGMXVX7AYFbczwSLm8Q8=
-		</data>
-		<key>Frameworks/TestPackage.framework/TestPackage</key>
-		<data>
-		6+jeikRDm8BbgTwPiYqBJhGoDBw=
-		</data>
-		<key>Frameworks/TestPackage.framework/_CodeSignature/CodeResources</key>
-		<data>
-		gjaHXnEY8ZmoAv3C8+rz95luZu8=
+		Nkkq77v6FN8DBL+LCuG8/o4P14A=
 		</data>
 		<key>Headers/TestUIPkg-Swift.h</key>
 		<data>
@@ -30,11 +18,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		RGBsYkY8AP6eUBVrPXnxqlrbdfk=
+		7RvqUPK4RQSpKXW06R2cDH9QsE8=
 		</data>
 		<key>Modules/TestUIPkg.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		eKfYPK5sFpSx6SjuSJhsYrzwynE=
+		zFyJgmD8hD4yoj5GJTPM1m2tqQs=
 		</data>
 		<key>Modules/TestUIPkg.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -42,11 +30,11 @@
 		</data>
 		<key>Modules/TestUIPkg.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		vYLooUGGN2b0bI2o8pmxTqAkL/o=
+		k1Fm8rBW5FjB1GvqNpFWb1ni9b8=
 		</data>
 		<key>Modules/TestUIPkg.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		vs27hrh+A0OcREqWvFHaxGHsw98=
+		EzpXfnBwj69k1xgF4F3qkuvQU1s=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -62,7 +50,7 @@
 		</data>
 		<key>SampleImg.storyboardc/TDf-2j-TXF-view-SbX-5U-1gq.nib</key>
 		<data>
-		xIf7hVfmLjwa5rCmi6qn0tyzvDo=
+		eLciwtiBUEmObCv6j0YjOx/HbJI=
 		</data>
 		<key>SampleImg.storyboardc/UIViewController-TDf-2j-TXF.nib</key>
 		<data>
@@ -70,7 +58,7 @@
 		</data>
 		<key>SampleImg.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<data>
-		lpAisxQDS492U50Ii6L8E8dEjUM=
+		TE+Ptj+8fzq9tVdKWZCDZLCTFpk=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -79,28 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			o2owSD1qNgPdVtwM4w/dRvoiwjA+1FZUNOaTOYrO/ps=
-			</data>
-		</dict>
-		<key>Frameworks/TestPackage.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			mTOvqkwYKZpzyMlk8/APvj5xdq0xlLcQPSR1QcsgAB4=
-			</data>
-		</dict>
-		<key>Frameworks/TestPackage.framework/TestPackage</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			eMc0bSSuYc7U5iUKAudyTZq3Z+/1sqKnq3VGSIns/og=
-			</data>
-		</dict>
-		<key>Frameworks/TestPackage.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			bgHK8MFLzclOlQ8Lkzor/B/UpCs3ApVrUXXZCkxxNrc=
+			tmK7KKOTCuIxVF4TsPBFLIfF3/bpAbWIDa7zlj/NwRU=
 			</data>
 		</dict>
 		<key>Headers/TestUIPkg-Swift.h</key>
@@ -121,7 +88,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6bSW7dYXpijZm/KTmDsScggF4DysFS72llRdPEpYEgA=
+			98EGJkE9XqFrNuhzJNlUGg1Vrm3aTtDo1xUK/hmBvRA=
 			</data>
 		</dict>
 		<key>Modules/TestUIPkg.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -135,14 +102,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			h/MB/8wB+8D9idKx9K+/xc+hi9ipO+Clp/NyDe/LsqE=
+			VEpbnzLMD1wWj1peyvRKa4xcvKUFq3cckd85aiLnxp0=
 			</data>
 		</dict>
 		<key>Modules/TestUIPkg.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			axnjdjsqBR0YWjmosl3Ymok7ZBdt2bev9+31ZnezUgM=
+			lkt+hH0wvnmA2pDYemGF6tlx1m2NEZY9mrUb/adVEiY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -170,7 +137,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			p3hvvOYKIfMje3yvAtBsi05LcRPNR47PkZJsubwAkUA=
+			eJJY5AHBFJjRMJGdHvg3z8pTNpZMINKI+BX/cI1ZrGI=
 			</data>
 		</dict>
 		<key>SampleImg.storyboardc/UIViewController-TDf-2j-TXF.nib</key>
@@ -184,7 +151,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			X5S66WnMvioltiZC/U46a/JFjeLBPNOJ5b/El9I9cno=
+			x9NqMePZHNJGF/h4Sqif/9oBQAGxFDa+kkc699Cv+ao=
 			</data>
 		</dict>
 	</dict>
