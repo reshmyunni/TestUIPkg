@@ -27,7 +27,7 @@ spec.dependency "PMSuperButton",'~> 3.0.2'
 spec.vendored_frameworks = "TestUIPkg.framework"
   spec.author             = { "reshmyunni" => "reshmyunni1778@gmail.com" }
  
-  spec.platform     = :ios, "11.0"
+  spec.platform     = :ios, "16.1"
 
   
   spec.source       = { :git => "https://github.com/reshmyunni/TestUIPkg.git" }
