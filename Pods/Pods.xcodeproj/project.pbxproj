@@ -59,10 +59,10 @@
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		77EC33790374497D261029FC0B3AB9C3 /* PMSuperButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PMSuperButton-dummy.m"; sourceTree = "<group>"; };
 		7B88F980608568244040F8E50ED8402C /* Pods-TestUIPkg-TestUIPkgTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestUIPkg-TestUIPkgTests.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B874A634D094EDFD984684A821DB56D0 /* Pods-TestUIPkg-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestUIPkg-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C3732EBD6991A85694503036030C1FB2 /* PMSuperButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PMSuperButton-Info.plist"; sourceTree = "<group>"; };
-		C68C9B93DF5B4A982CB2140092DEE812 /* PMSuperButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PMSuperButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C68C9B93DF5B4A982CB2140092DEE812 /* PMSuperButton */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PMSuperButton; path = PMSuperButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF11AE43B79527797522E3AB13A3E4F0 /* PMSuperButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PMSuperButton.modulemap; sourceTree = "<group>"; };
 		D72CB324ED8CCF37A1E2EAFFE5CB9E88 /* PMSuperButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PMSuperButton.debug.xcconfig; sourceTree = "<group>"; };
 		E54BC6FF8E896034AFA5A6442DD0FFF1 /* Pods-TestUIPkg-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestUIPkg-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -100,7 +100,7 @@
 		0B86BA3965DF4514B44AD51F417C7BF8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C68C9B93DF5B4A982CB2140092DEE812 /* PMSuperButton.framework */,
+				C68C9B93DF5B4A982CB2140092DEE812 /* PMSuperButton */,
 				3A83809BCFD5046D008381F5CF9748C2 /* Pods-TestUIPkg */,
 				40256C02BDDE3AC55F0F2893CC335093 /* Pods-TestUIPkg-TestUIPkgTests */,
 			);
@@ -121,6 +121,7 @@
 				1300350313ACD16AB39905674C87ED24 /* PMSuperButton.swift */,
 				9AB101F8B444B21521010CB9CA197689 /* Support Files */,
 			);
+			name = PMSuperButton;
 			path = PMSuperButton;
 			sourceTree = "<group>";
 		};
@@ -253,7 +254,7 @@
 			);
 			name = PMSuperButton;
 			productName = PMSuperButton;
-			productReference = C68C9B93DF5B4A982CB2140092DEE812 /* PMSuperButton.framework */;
+			productReference = C68C9B93DF5B4A982CB2140092DEE812 /* PMSuperButton */;
 			productType = "com.apple.product-type.framework";
 		};
 		25DAE86A33920F9952528F56EA95B3F6 /* Pods-TestUIPkg */ = {
@@ -406,7 +407,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/PMSuperButton/PMSuperButton-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/PMSuperButton/PMSuperButton-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -418,7 +419,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -680,7 +681,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/PMSuperButton/PMSuperButton-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/PMSuperButton/PMSuperButton-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -692,7 +693,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
