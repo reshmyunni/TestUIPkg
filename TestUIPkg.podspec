@@ -21,7 +21,7 @@ A short description of TestUIPkg.
 
   spec.homepage     = "https://github.com/reshmyunni/TestUIPkg"
  
-spec.dependency "PMSuperButton"
+spec.dependency "PMSuperButton",'~> 3.0.2'
 
  
 spec.vendored_frameworks = "TestUIPkg.framework"
@@ -33,6 +33,6 @@ spec.vendored_frameworks = "TestUIPkg.framework"
   spec.source       = { :git => "https://github.com/reshmyunni/TestUIPkg.git" }
 
 
- P
+
 
 end
