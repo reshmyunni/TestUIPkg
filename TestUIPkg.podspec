@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
  
 
   spec.name         = "TestUIPkg"
-  spec.version      = "0.1.0"
+  spec.version      = "0.0.10"
   spec.summary      = "A short description of TestUIPkg."
 
  
