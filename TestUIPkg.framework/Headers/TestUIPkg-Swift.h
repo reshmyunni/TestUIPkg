@@ -268,6 +268,14 @@ SWIFT_CLASS("_TtC9TestUIPkg11DataManager")
 @class NSBundle;
 @class NSCoder;
 
+SWIFT_CLASS("_TtC9TestUIPkg19FirstViewController")
+@interface FirstViewController : UIViewController
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC9TestUIPkg19ImageViewController")
 @interface ImageViewController : UIViewController
 - (void)viewDidLoad;
@@ -278,6 +286,14 @@ SWIFT_CLASS("_TtC9TestUIPkg19ImageViewController")
 
 SWIFT_CLASS("_TtC9TestUIPkg18NextViewController")
 @interface NextViewController : UIViewController
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC9TestUIPkg20SecondViewController")
+@interface SecondViewController : UIViewController
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;

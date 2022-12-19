@@ -8,7 +8,7 @@
 import UIKit
 //import TestPackage
 //#import PMSuperButton
-
+import CAPSPageMenu
 public class ImageViewController: UIViewController {
 
     @IBOutlet weak var nextBtn: UIButton!
@@ -23,9 +23,7 @@ public class ImageViewController: UIViewController {
     func setTheme(){
         self.view.backgroundColor = DataManager.sharedInstance.color ?? UIColor.white
         self.apiBtn.backgroundColor = DataManager.sharedInstance.color ?? UIColor.white
-        self.apiBtn.alpha = 0.5
         self.nextBtn.backgroundColor = DataManager.sharedInstance.color ?? UIColor.white
-        self.nextBtn.alpha = 0.5
         self.imgView.image = DataManager.sharedInstance.img
 //        TestPackage.d("Hello....")
     }

@@ -7,7 +7,7 @@ target 'TestUIPkg' do
   use_frameworks!
 #pod 'PMSuperButton'
   # Pods for TestUIPkg
-
+  pod 'CAPSPageMenu'
   target 'TestUIPkgTests' do
     # Pods for testing
   end
