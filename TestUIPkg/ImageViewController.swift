@@ -7,13 +7,6 @@
 
 import UIKit
 
-public extension UIViewController{
-       
-    static func getStoryboardVC() -> UIStoryboard {
-           let storyboard = UIStoryboard(name: "SampleImg", bundle: nil) // Use Bundle.module
-           return storyboard
-       }
-}
 
 public class ImageViewController: UIViewController {
 
@@ -27,9 +20,12 @@ public class ImageViewController: UIViewController {
     }
     
     func setTheme(){
-        self.view.backgroundColor = DataManager.sharedInstance.color
-        self.apiBtn.backgroundColor = DataManager.sharedInstance.color
-        self.nextBtn.backgroundColor = DataManager.sharedInstance.color
+        self.view.backgroundColor = DataManager.sharedInstance.color ?? UIColor.white
+        self.apiBtn.backgroundColor = DataManager.sharedInstance.color ?? UIColor.white
+        self.apiBtn.alpha = 0.5
+        self.nextBtn.backgroundColor = DataManager.sharedInstance.color ?? UIColor.white
+        self.nextBtn.alpha = 0.5
+        self.imgView.image = DataManager.sharedInstance.img
     }
     
     @IBAction func apiCallBtnTapped(_ sender: Any) {

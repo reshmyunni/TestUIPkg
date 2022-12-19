@@ -14,7 +14,6 @@
 		F2E40F21294B22970093CEED /* SampleImg.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2E40F1C294B22970093CEED /* SampleImg.storyboard */; };
 		F2E40F22294B22970093CEED /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E40F1D294B22970093CEED /* ImageViewController.swift */; };
 		F2E40F23294B22970093CEED /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E40F1E294B22970093CEED /* APIRequest.swift */; };
-		F2E40F24294B22970093CEED /* MyLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E40F1F294B22970093CEED /* MyLibrary.swift */; };
 		F2E40F25294B22970093CEED /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E40F20294B22970093CEED /* NextViewController.swift */; };
 		F2E40F27294B22A00093CEED /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2E40F26294B22A00093CEED /* Media.xcassets */; };
 		F2E40F2A294B22BF0093CEED /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2E40F29294B22BF0093CEED /* Accelerate.framework */; };
@@ -40,7 +39,6 @@
 		F2E40F1C294B22970093CEED /* SampleImg.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SampleImg.storyboard; sourceTree = "<group>"; };
 		F2E40F1D294B22970093CEED /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		F2E40F1E294B22970093CEED /* APIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
-		F2E40F1F294B22970093CEED /* MyLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLibrary.swift; sourceTree = "<group>"; };
 		F2E40F20294B22970093CEED /* NextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 		F2E40F26294B22A00093CEED /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		F2E40F29294B22BF0093CEED /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
@@ -91,7 +89,6 @@
 			children = (
 				F2E40F1E294B22970093CEED /* APIRequest.swift */,
 				F2E40F1D294B22970093CEED /* ImageViewController.swift */,
-				F2E40F1F294B22970093CEED /* MyLibrary.swift */,
 				F2E40F20294B22970093CEED /* NextViewController.swift */,
 				F2E40F1C294B22970093CEED /* SampleImg.storyboard */,
 				F2E40F05294B227F0093CEED /* TestUIPkg.h */,
@@ -232,7 +229,6 @@
 				F2E40F25294B22970093CEED /* NextViewController.swift in Sources */,
 				F2EA324E294C6854000406CC /* DataManager.swift in Sources */,
 				F2E40F22294B22970093CEED /* ImageViewController.swift in Sources */,
-				F2E40F24294B22970093CEED /* MyLibrary.swift in Sources */,
 				F2E40F23294B22970093CEED /* APIRequest.swift in Sources */,
 				F2E40F07294B227F0093CEED /* TestUIPkg.docc in Sources */,
 			);

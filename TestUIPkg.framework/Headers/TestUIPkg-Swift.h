@@ -283,7 +283,6 @@ SWIFT_CLASS("_TtC9TestUIPkg18NextViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-
 #endif
 #if defined(__cplusplus)
 #endif
