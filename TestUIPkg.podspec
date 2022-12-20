@@ -27,7 +27,7 @@ spec.dependency 'CAPSPageMenu'
 spec.vendored_frameworks = "TestUIPkg.framework"
   spec.author             = { "reshmyunni" => "reshmyunni1778@gmail.com" }
  
-  spec.platform     = :ios, "16.1"
+  spec.platform     = :ios, "13.0"
 
   
   spec.source       = { :git => "https://github.com/reshmyunni/TestUIPkg.git" }
