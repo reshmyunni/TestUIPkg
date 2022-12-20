@@ -7,6 +7,7 @@
 import UIKit
 import CAPSPageMenu
 public class NextViewController: UIViewController {
+    @IBOutlet weak var subView: UIView!
     var pageMenu:CAPSPageMenu!
     public override func viewDidLoad() {
         var controllerArray : [UIViewController] = []
@@ -39,11 +40,11 @@ public class NextViewController: UIViewController {
         ]
 
         // Initialize page menu with controller array, frame, and optional parameters
-        pageMenu = CAPSPageMenu(viewControllers: controllerArray, frame: CGRectMake(0.0, 0.0, self.view.frame.width, self.view.frame.height), pageMenuOptions: parameters)
+        pageMenu = CAPSPageMenu(viewControllers: controllerArray, frame: CGRectMake(0.0, 0.0, self.subView.frame.width, self.subView.frame.height), pageMenuOptions: parameters)
 
         // Lastly add page menu as subview of base view controller view
         // or use pageMenu controller in you view hierachy as desired
-        self.view.addSubview(pageMenu!.view)
+        self.subView.addSubview(pageMenu!.view)
 
     }
     
