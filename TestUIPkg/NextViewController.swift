@@ -16,7 +16,12 @@ public class NextViewController: UIViewController {
         // (Can be any UIViewController subclass)
         // Make sure the title property of all view controllers is set
         // Example:
-        let storyBoard = UIStoryboard(name: "SampleImg", bundle: Bundle.main)
+        
+        let mainBundlePath: String = Bundle.main.resourcePath!
+        let frameworkBundlePath = mainBundlePath + "/Frameworks/TestUIPkg.framework"
+        print("Path :",frameworkBundlePath)
+        let frameworkBundle = Bundle(path: frameworkBundlePath)
+        let storyBoard = UIStoryboard(name: "SampleImg", bundle: frameworkBundle)
         
         let fController : FirstViewController = storyBoard.instantiateViewController(withIdentifier: "FirstVC") as! FirstViewController
         fController.title = "FIRST"
