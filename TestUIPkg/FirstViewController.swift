@@ -8,5 +8,6 @@
 import UIKit
 public class FirstViewController: UIViewController {
     public override func viewDidLoad() {
+        super.viewDidLoad()
     }
 }

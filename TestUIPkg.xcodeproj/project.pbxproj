@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		A6404749E655FB912ACF1B35 /* Pods_TestUIPkg_TestUIPkgTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 273F7211815EE99B74ABDA35 /* Pods_TestUIPkg_TestUIPkgTests.framework */; };
+		F21C2A642952D5EA00D01914 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21C2A632952D5EA00D01914 /* ThirdViewController.swift */; };
+		F21C2A662952D5FC00D01914 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21C2A652952D5FC00D01914 /* FourthViewController.swift */; };
+		F21C2A682952D60E00D01914 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21C2A672952D60E00D01914 /* FifthViewController.swift */; };
+		F21C2A6C2952DBC700D01914 /* PageViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21C2A6B2952DBC700D01914 /* PageViewcontroller.swift */; };
+		F21C2A742952DED800D01914 /* MenuBar+ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21C2A6E2952DED800D01914 /* MenuBar+ContainerView.swift */; };
+		F21C2A752952DED800D01914 /* PageControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21C2A6F2952DED800D01914 /* PageControllerExtensions.swift */; };
+		F21C2A762952DED800D01914 /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21C2A702952DED800D01914 /* MenuBar.swift */; };
+		F21C2A772952DED800D01914 /* PageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21C2A712952DED800D01914 /* PageController.swift */; };
+		F21C2A782952DED800D01914 /* MenuBarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21C2A722952DED800D01914 /* MenuBarCell.swift */; };
+		F21C2A792952DED800D01914 /* PageController+ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21C2A732952DED800D01914 /* PageController+ContainerView.swift */; };
 		F28D069C2950836600C53840 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28D069B2950836600C53840 /* FirstViewController.swift */; };
 		F28D069E2950837200C53840 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28D069D2950837200C53840 /* SecondViewController.swift */; };
 		F2E40F07294B227F0093CEED /* TestUIPkg.docc in Sources */ = {isa = PBXBuildFile; fileRef = F2E40F06294B227F0093CEED /* TestUIPkg.docc */; };
@@ -41,6 +51,16 @@
 		C803133C75A2270D4F65A64E /* Pods-TestUIPkg.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestUIPkg.release.xcconfig"; path = "Target Support Files/Pods-TestUIPkg/Pods-TestUIPkg.release.xcconfig"; sourceTree = "<group>"; };
 		CA26D93F602B899BD04FAF34 /* Pods-TestUIPkg.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestUIPkg.debug.xcconfig"; path = "Target Support Files/Pods-TestUIPkg/Pods-TestUIPkg.debug.xcconfig"; sourceTree = "<group>"; };
 		E5D3C785A9B5E99569C02F03 /* Pods-TestUIPkg-TestUIPkgTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestUIPkg-TestUIPkgTests.debug.xcconfig"; path = "Target Support Files/Pods-TestUIPkg-TestUIPkgTests/Pods-TestUIPkg-TestUIPkgTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F21C2A632952D5EA00D01914 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		F21C2A652952D5FC00D01914 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		F21C2A672952D60E00D01914 /* FifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
+		F21C2A6B2952DBC700D01914 /* PageViewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewcontroller.swift; sourceTree = "<group>"; };
+		F21C2A6E2952DED800D01914 /* MenuBar+ContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MenuBar+ContainerView.swift"; sourceTree = "<group>"; };
+		F21C2A6F2952DED800D01914 /* PageControllerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageControllerExtensions.swift; sourceTree = "<group>"; };
+		F21C2A702952DED800D01914 /* MenuBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
+		F21C2A712952DED800D01914 /* PageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageController.swift; sourceTree = "<group>"; };
+		F21C2A722952DED800D01914 /* MenuBarCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuBarCell.swift; sourceTree = "<group>"; };
+		F21C2A732952DED800D01914 /* PageController+ContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PageController+ContainerView.swift"; sourceTree = "<group>"; };
 		F28D069B2950836600C53840 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		F28D069D2950837200C53840 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		F2E40F02294B227F0093CEED /* TestUIPkg.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestUIPkg.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,6 +110,19 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		F21C2A6D2952DEC300D01914 /* PageController */ = {
+			isa = PBXGroup;
+			children = (
+				F21C2A702952DED800D01914 /* MenuBar.swift */,
+				F21C2A6E2952DED800D01914 /* MenuBar+ContainerView.swift */,
+				F21C2A722952DED800D01914 /* MenuBarCell.swift */,
+				F21C2A712952DED800D01914 /* PageController.swift */,
+				F21C2A732952DED800D01914 /* PageController+ContainerView.swift */,
+				F21C2A6F2952DED800D01914 /* PageControllerExtensions.swift */,
+			);
+			path = PageController;
+			sourceTree = "<group>";
+		};
 		F2E40EF8294B227F0093CEED = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +146,7 @@
 		F2E40F04294B227F0093CEED /* TestUIPkg */ = {
 			isa = PBXGroup;
 			children = (
+				F21C2A6D2952DEC300D01914 /* PageController */,
 				F2E40F1E294B22970093CEED /* APIRequest.swift */,
 				F2E40F1D294B22970093CEED /* ImageViewController.swift */,
 				F2E40F20294B22970093CEED /* NextViewController.swift */,
@@ -123,6 +157,10 @@
 				F2EA324D294C6854000406CC /* DataManager.swift */,
 				F28D069B2950836600C53840 /* FirstViewController.swift */,
 				F28D069D2950837200C53840 /* SecondViewController.swift */,
+				F21C2A632952D5EA00D01914 /* ThirdViewController.swift */,
+				F21C2A652952D5FC00D01914 /* FourthViewController.swift */,
+				F21C2A672952D60E00D01914 /* FifthViewController.swift */,
+				F21C2A6B2952DBC700D01914 /* PageViewcontroller.swift */,
 			);
 			path = TestUIPkg;
 			sourceTree = "<group>";
@@ -186,7 +224,6 @@
 				F2E40F08294B227F0093CEED /* Sources */,
 				F2E40F09294B227F0093CEED /* Frameworks */,
 				F2E40F0A294B227F0093CEED /* Resources */,
-				4AE379E2FAEE509C26193D77 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -280,23 +317,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4AE379E2FAEE509C26193D77 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TestUIPkg-TestUIPkgTests/Pods-TestUIPkg-TestUIPkgTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TestUIPkg-TestUIPkgTests/Pods-TestUIPkg-TestUIPkgTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestUIPkg-TestUIPkgTests/Pods-TestUIPkg-TestUIPkgTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		8A947F19C2248CF97B546513 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -326,13 +346,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F21C2A682952D60E00D01914 /* FifthViewController.swift in Sources */,
 				F2E40F25294B22970093CEED /* NextViewController.swift in Sources */,
 				F2EA324E294C6854000406CC /* DataManager.swift in Sources */,
 				F2E40F22294B22970093CEED /* ImageViewController.swift in Sources */,
+				F21C2A662952D5FC00D01914 /* FourthViewController.swift in Sources */,
+				F21C2A742952DED800D01914 /* MenuBar+ContainerView.swift in Sources */,
+				F21C2A782952DED800D01914 /* MenuBarCell.swift in Sources */,
 				F28D069C2950836600C53840 /* FirstViewController.swift in Sources */,
 				F28D069E2950837200C53840 /* SecondViewController.swift in Sources */,
 				F2E40F23294B22970093CEED /* APIRequest.swift in Sources */,
+				F21C2A6C2952DBC700D01914 /* PageViewcontroller.swift in Sources */,
+				F21C2A752952DED800D01914 /* PageControllerExtensions.swift in Sources */,
+				F21C2A642952D5EA00D01914 /* ThirdViewController.swift in Sources */,
+				F21C2A762952DED800D01914 /* MenuBar.swift in Sources */,
+				F21C2A792952DED800D01914 /* PageController+ContainerView.swift in Sources */,
 				F2E40F07294B227F0093CEED /* TestUIPkg.docc in Sources */,
+				F21C2A772952DED800D01914 /* PageController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

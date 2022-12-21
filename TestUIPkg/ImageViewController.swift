@@ -8,7 +8,7 @@
 import UIKit
 //import TestPackage
 //#import PMSuperButton
-import CAPSPageMenu
+//import CAPSPageMenu
 public class ImageViewController: UIViewController {
 
     @IBOutlet weak var nextBtn: UIButton!
